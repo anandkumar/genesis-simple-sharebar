@@ -1,0 +1,37 @@
+
+/* Share bar CSS
+------------------------------------------------------------ */
+
+.ssbp-widgets {
+	// background: #f5f5f5;
+	padding: 4px;
+	margin-bottom: 16px;
+	margin-bottom: 1.6em;
+	height: 32px;
+	overflow: hidden;
+}
+
+.ssbp-btn {
+	height: 28px;
+	vertical-align: middle;
+	min-width: 92px;
+	display: inline-block;
+}
+
+.ssbp-share-txt {
+	font-weight: bold;
+	float: left;
+	margin: 0 12px;
+}
+
+@media only screen and (max-width: 480px) {
+	.ssbp-share-txt  {
+		display: none;
+	}
+}
+@media only print {
+	.ssbp-widgets {
+		display: none;
+		height: 0;
+	}
+}
